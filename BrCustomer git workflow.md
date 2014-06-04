@@ -1,5 +1,5 @@
-Git process with coretech/BrCustomer
-====================================
+Git process with BrCustomer
+===========================
 
 Branch "master" should never be committed into or merged into.
 
@@ -13,13 +13,15 @@ As our primary branch would be "style" not "master" let make some changes in set
 2. `git cd BrCustomer` — go inside repo
 3. `git pull origin style` — pull branch "style" from remote
 4. `git remote set-head origin style` — set tracking remote "style" branch
-5. `git checkout style` — switch to "style" branch. Should output something like this:  
+5. `git checkout style` — switch to "style" branch. Should output something like this:
+
     ```
     $ git checkout style
     Branch style set up to track remote branch style from origin.
     Switched to a new branch 'style'
     ```
-6. `git remote show origin` — check our settings. Output:  
+6. `git remote show origin` — check our settings. Output:
+
     ```
     $ git remote show origin
     * remote origin
